@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="定时关机："/>
+
+    <EditText
+        android:id="@+id/powerOffEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入定时关机时间"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="定时开机："
+        />
+
+    <EditText
+    android:id="@+id/powerOnEditText"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="请输入定时关机时间"/>
+
+    <Button
+        android:id="@+id/powerOnOffBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="设置开关机"/>
+
+
+</LinearLayout>
